@@ -15,6 +15,5 @@ py==1.6.0
 pydub==0.23.0
 pyTelegramBotAPI==3.6.6
 python-telegram-bot==11.1.0
-pywin32==223
 pywinpty==0.5.4
 SoundFile==0.10.2
