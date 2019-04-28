@@ -646,7 +646,7 @@ def handle_command(message):
 
     # recognizing the audio
     data = stream_audio_file(wav_file)
-    response = requests.post('ht7tps://api.wit.ai/speech?v=2010307', headers=headers, data=data)
+    response = requests.post('https://api.wit.ai/speech?v=2010307', headers=headers, data=data)
     print("successful")
 
 
